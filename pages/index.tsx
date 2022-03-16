@@ -1,8 +1,11 @@
+import { Heading, Center, Text } from '@chakra-ui/react';
+
 const IndexPage = () => (
   <>
-    <h1>Hi! I'm Luisetelo 👋🏻</h1>
-    <h1>and this is Buy me a Caf3 ☕️</h1>
-    <h2>my Web 3 alternative to buymeacoffee</h2>
+    <Center h="100vh" flexDirection="column">
+      <Heading as="h1">Hi! I'm Luisetelo 👋🏻 and this is my website ☕️</Heading>
+      <Text>(It is still under construction 😅)</Text>
+    </Center>
   </>
 );
 
