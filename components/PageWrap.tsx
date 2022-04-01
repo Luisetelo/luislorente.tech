@@ -1,6 +1,8 @@
+import Navbar from './Navbar';
+
 export const PageWrap: React.FC = ({ children }) => (
   <>
-    {/* <Navbar /> */}
+    <Navbar />
     <main>{children}</main>
     {/* <Footer /> */}
   </>
